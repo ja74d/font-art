@@ -4,7 +4,7 @@ def font():
     from pyfiglet import Figlet
     c_text = Figlet(font=input(str('''enter font name :
 for exampel:
-3-d | avatar | banner | basic | bell | big | block | bubble | ...
+3-d | avatar | banner | basic | bell | big | block | bubble | slant ...
 to see all fonts folow this link:http://www.figlet.org/fontdb.cgi
 enter font name:''')))
     os.system("clear")
